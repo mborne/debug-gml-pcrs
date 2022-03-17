@@ -1,0 +1,15 @@
+<GMLFeatureClassList>
+  <GMLFeatureClass>
+    <Name>AffleurantEnveloppePCRS</Name>
+    <ElementPath>AffleurantEnveloppePCRS</ElementPath>
+    <!--POLYGONZ-->
+    <GeometryType>-2147483645</GeometryType>
+    <DatasetSpecificInfo>
+      <FeatureCount>1</FeatureCount>
+      <ExtentXMin>1372074.50715</ExtentXMin>
+      <ExtentXMax>1372074.89355</ExtentXMax>
+      <ExtentYMin>6205942.43564</ExtentYMin>
+      <ExtentYMax>6205942.75248</ExtentYMax>
+    </DatasetSpecificInfo>
+  </GMLFeatureClass>
+</GMLFeatureClassList>
