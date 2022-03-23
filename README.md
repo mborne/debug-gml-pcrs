@@ -58,7 +58,7 @@ Il apparaît que ce problème provient des espaces et sauts de lignes dans `<gml
 | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------ |
 | [data/GeoVendee_PCRS_Montaigu_minimal.gml](data/GeoVendee_PCRS_Montaigu_minimal.gml) | Extrait d'un jeu de données avec espace et saut de ligne posant problème |
 | [data/GeoVendee_PCRS_Montaigu_fixed.gml](data/GeoVendee_PCRS_Montaigu_fixed.gml)     | Suppression des sauts de lignes et espace inutiles                       |
-| [data/GeoVendee_PCRS_Montaigu_fixed.gml](data/GeoVendee_PCRS_Montaigu_posList.gml)   | Utilisation `<gml:posList>` plutôt que `<gml:coordinates>` qui est dépréciée      |
+| [data/GeoVendee_PCRS_Montaigu_posList.gml](data/GeoVendee_PCRS_Montaigu_posList.gml)   | Utilisation `<gml:posList>` plutôt que `<gml:coordinates>` qui est dépréciée      |
 
 ## Script de reproduction du problème
 
