@@ -1,5 +1,7 @@
 # debug-gml-pcrs
 
+> English here : [README_en.md](README_en.md)
+
 Reproduction d'un problème de lecture de `<gml:coordinates>` liés à la présence d'espace et saut de lignes avec [ogr2ogr](https://gdal.org/programs/ogr2ogr.html) et le pilote [GMLAS](https://gdal.org/drivers/vector/gmlas.html).
 
 ## Problème
