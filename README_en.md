@@ -68,13 +68,13 @@ See [build.sh](build.sh)
 
 * [debug/GeoVendee_PCRS_Montaigu_minimal.vtabs-gmlas/affleurantenveloppepcrs.csv](debug/GeoVendee_PCRS_Montaigu_minimal.vtabs-gmlas/affleurantenveloppepcrs.csv) : **KO** (`POLYGON Z ((0.0 x1 x1,...`)
 * [debug/GeoVendee_PCRS_Montaigu_fixed.vtabs-gmlas/affleurantenveloppepcrs.csv](debug/GeoVendee_PCRS_Montaigu_fixed.vtabs-gmlas/affleurantenveloppepcrs.csv) : **OK** (corrigé)
-* [debug/GeoVendee_PCRS_Montaigu_postList.vtabs-gmlas/affleurantenveloppepcrs.csv](debug/GeoVendee_PCRS_Montaigu_postList.vtabs-gmlas/affleurantenveloppepcrs.csv) **OK** (corrigé)
+* [debug/GeoVendee_PCRS_Montaigu_posList.vtabs-gmlas/affleurantenveloppepcrs.csv](debug/GeoVendee_PCRS_Montaigu_posList.vtabs-gmlas/affleurantenveloppepcrs.csv) **OK** (corrigé)
 
 ## Results with the GML driver
 
 * [debug/GeoVendee_PCRS_Montaigu_minimal.vtabs-gml/AffleurantEnveloppePCRS.csv](debug/GeoVendee_PCRS_Montaigu_minimal.vtabs-gml/AffleurantEnveloppePCRS.csv) : **OK**
 * [debug/GeoVendee_PCRS_Montaigu_fixed.vtabs-gml/AffleurantEnveloppePCRS.csv](debug/GeoVendee_PCRS_Montaigu_fixed.vtabs-gml/AffleurantEnveloppePCRS.csv) : **OK**
-* [debug/GeoVendee_PCRS_Montaigu_postList.vtabs-gml/AffleurantEnveloppePCRS.csv](debug/GeoVendee_PCRS_Montaigu_postList.vtabs-gml/AffleurantEnveloppePCRS.csv) : **OK**
+* [debug/GeoVendee_PCRS_Montaigu_posList.vtabs-gml/AffleurantEnveloppePCRS.csv](debug/GeoVendee_PCRS_Montaigu_posList.vtabs-gml/AffleurantEnveloppePCRS.csv) : **OK**
 
 
 ## Solution

@@ -3,7 +3,7 @@
 mkdir -p debug
 rm -rf debug/*
 
-for NAME in GeoVendee_PCRS_Montaigu_fixed GeoVendee_PCRS_Montaigu_minimal GeoVendee_PCRS_Montaigu_postList;
+for NAME in GeoVendee_PCRS_Montaigu_fixed GeoVendee_PCRS_Montaigu_minimal GeoVendee_PCRS_Montaigu_posList;
 do
     echo "GMLAS - ./data/${NAME}.gml => ./debug/${NAME}.vtabs-gmlas ..."
     rm -rf ./debug/${NAME}.vtabs-gmlas
