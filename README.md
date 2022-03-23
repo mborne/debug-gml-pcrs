@@ -127,4 +127,5 @@ La solution consiste à supprimer les espaces et sauts de ligne inutiles :
 * Problème reproduit avec deux versions de GDAL (**GDAL 2.4.2, released 2019/06/28** installée avec ubuntugis et **GDAL 3.4.1, released 2021/12/27** installée avec conda)
 * `<gml:coordinates>` offre de (trop) nombreuses options ("decimal", "cs", "ts") pour qu'une validation par schéma XSD soit possible et qu'un outil de lecture puisse être tolérant sur les espaces et saut de ligne (c.f. [gml32_coordinates](http://www.datypic.com/sc/niem21/e-gml32_coordinates.html)) => **envisager un contrôle spécifique dans IGNF/validator?**?
 * `<gml:posList>` offre moins d'options que `<gml:coordinates>` (une option inutile en moins = un risque de bug à la lecture dans un outil en moins)
-* ogr2ogr/GMLAS pourrait toutefois échouer plus proprement sur la lecture => **Traduire ce README en anglais et créer un ticket GDAL (https://github.com/OSGeo/gdal/tree/master/ogr/ogrsf_frmts/gmlas) ?**
+* ogr2ogr/GMLAS pourrait toutefois échouer plus proprement sur la lecture => [une issue 5494 a été ajoutée au projet OSGeo/gdal](https://github.com/OSGeo/gdal/issues/5494)
+
