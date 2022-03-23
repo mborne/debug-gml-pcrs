@@ -58,7 +58,7 @@ It appears that this problem comes from spaces and line breaks in `<gml:coordina
 | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------ |
 | [data/GeoVendee_PCRS_Montaigu_minimal.gml](data/GeoVendee_PCRS_Montaigu_minimal.gml) | Extract from a dataset with problematic spaces and line breaks |
 | [data/GeoVendee_PCRS_Montaigu_fixed.gml](data/GeoVendee_PCRS_Montaigu_fixed.gml)     | Removal of the unnecessary line breaks and spaces                       |
-| [data/GeoVendee_PCRS_Montaigu_fixed.gml](data/GeoVendee_PCRS_Montaigu_posList.gml)   | Use of `<gml:posList>` rather than the deprecated `<gml:coordinates>`      |
+| [data/GeoVendee_PCRS_Montaigu_posList.gml](data/GeoVendee_PCRS_Montaigu_posList.gml)   | Use of `<gml:posList>` rather than the deprecated `<gml:coordinates>`      |
 
 ## Script reproducing the problem
 
