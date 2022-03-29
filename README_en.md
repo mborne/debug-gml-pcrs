@@ -132,7 +132,8 @@ The solution is to remove unnecessary spaces and line breaks…
 * `<gml:coordinates>` offers (too) many options ("decimal", "cs", "ts") to make a validation possible using a XSD schema and for a reading tool to be tolerant with spaces and line breaks (cf. [gml32_coordinates](https://www-datypic-com.translate.goog/sc/niem21/e-gml32_coordinates.html) ) => **to be considered, a specific check in [IGNF/validator](https://github.com/IGNF/validator)?**
 
 * `<gml:posList>` brings fewer options than `<gml:coordinates>` (but one less useless option = one less risk of hitting a bug while reading with a tool)
-* ogr2ogr/GMLAS could however fail more cleanly while reading => [an issue 5494 has been added to OSGeo/gdal](https://github.com/OSGeo/gdal/issues/5494) project.
+* ogr2ogr/GMLAS could however fail more cleanly while reading => [an issue 5494 has been added to OSGeo/gdal](https://github.com/OSGeo/gdal/issues/5494) project and fixed throw commit [9819da9019343210a52444e0c9275527a0c29358](https://github.com/OSGeo/gdal/commit/9819da9019343210a52444e0c9275527a0c29358) (available in version : **TODO**). Note that leading whitespaces were the problem.
+
 
 
 
