@@ -122,6 +122,19 @@ La solution consiste à supprimer les espaces et sauts de ligne inutiles :
     </gml:exterior>
 </gml:Polygon>
 ```
+
+## Contrôle dans le sens inverse
+
+La commande suivante est lancée via [build-reverse.sh](build-reverse.sh) pour contrôler que GMLAS lui même ne génère pas d'espace :
+
+```bash
+ogr2ogr -f GMLAS ./debug/minimal-csv.gml \
+    ./data/minimal-csv/ \
+    -dsco 'INPUT_XSD=https://cnigfr.github.io/PCRS/schemas/CNIG_PCRS_v2.0.xsd'
+```
+
+[data/minimal-csv/affleurantenveloppepcrs.csv](data/minimal-csv/affleurantenveloppepcrs.csv) est transformé en [debug/minimal-csv.gml](debug/minimal-csv.gml) où l'on observe `<gml:posList srsDimension="3">` avec les versions **GDAL 2.4.2, released 2019/06/28** et **GDAL 3.4.1, released 2021/12/27** (installée avec [conda-forge](https://conda-forge.org/))
+
 ## Remarques
 
 * Problème reproduit avec deux versions de GDAL (**GDAL 2.4.2, released 2019/06/28** installée avec ubuntugis et **GDAL 3.4.1, released 2021/12/27** installée avec conda)
